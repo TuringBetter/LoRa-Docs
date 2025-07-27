@@ -1,0 +1,4 @@
+帮我撰写最后一章
+安装和使用
+一、服务器部署（Chirpstack Server、Chirpstack GatewayOS的部署安装可参考ChirpStack.io官网，HttpServer可通过编译go源码，得到二进制文件运行在服务器上）
+二 、诱导灯安装（诱导灯的硬件板子、外壳已经集成，安装在交通道路两旁即可）

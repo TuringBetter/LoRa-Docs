@@ -1,0 +1,14 @@
+现在我需要扩写另外两个模块
+目录大纲为
+1 ChirpStack LoRaWAN 组网
+1.1功能概述（介绍一下ChirpStack Server、gateway等的作用）
+1.2 架构设计（参考ChirpStack官网，chirpstack.io,简要介绍一下chirpstack的架构）
+1.3 Chirpstack Server（通过docker部署v4版本的chirpstack server，在dashboard上注册LoRa设备、网关）
+1.4 Chirpstack gateway（用树莓派+lorawan网关SX1302射频芯片搭建LoRaWAN网关，简要介绍一下树莓派、SX1302以及Chirpstack gateway os）
+2 终端设备（可参考我新给的代码仓库）
+2.1 功能概述（Esp32+FreeRTOS实现多任务运行的终端设备，任务包括雷达车辆检测、诱导灯状态改变、按键报警、震动检测、LoRa通信）
+2.2 架构设计
+2.3 LoRa 通信（介绍一下Ra 08LoRa模块，用的ClassC模式，AT指令）
+2.4 加速度检测（使用SC7A20H轴线性加速度计，检测当前的加速度值，当加速度数值超过阈值时可认为发生了碰撞事故，通过LoRa向服务器发送报警信息，当加速度方向偏离初始方向时，认为发生了滑坡事故，同理进行报警）
+2.5 雷达检测（使用RD_SRR236微波雷达检测是否有车辆检测，当检测到车辆时，诱导灯变为红色闪烁状态，持续一段时间以此提醒后方来车）
+2.6 诱导灯状态（基于WS2812模块实现LED的状态控制，控制32×32的灯珠阵列，上半屏显示黄色，下半屏显示红色，只用一个IO口就可以控制整个状态，实现亮度、闪烁频率状态的控制和切换）
