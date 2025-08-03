@@ -4,11 +4,11 @@ PlatformIO是Microsoft Visual Studio Code IDE的一款免费插件，可以完�
 
 ## 1、安装VS Code
 
-安装链接如下：https://code.visualstudio.com/Download，根据开发机器的配置选择对应的安装包下载安装即可。
+安装链接如下：[VSCode](https://code.visualstudio.com/Download)，根据开发机器的配置选择对应的安装包下载安装即可。
 
 ## 2、安装Python环境
 
-若开发机并没有配置相应环境，可点击此链接安装：https://www.python.org/getit/，同样根据电脑的配置选择最新版本的Python下载安装即可。安装后，以Windows系统为例，打开命令提示符，输入Python，若出现Python版本号则为安装成功。
+若开发机并没有配置相应环境，可点击此链接安装：[python](https://www.python.org/getit/)，同样根据电脑的配置选择最新版本的Python下载安装即可。安装后，以Windows系统为例，打开命令提示符，输入Python，若出现Python版本号则为安装成功。
 
 ## 3、安装PlatformIO插件
 
